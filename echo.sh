@@ -1,3 +1,3 @@
-ECHO $PATH
-ECHO $DITA_HOME
+echo $PATH
+echo $DITA_HOME
 which dita
