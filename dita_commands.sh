@@ -1,1 +1,1 @@
-dita -i {$file_name} -f {$format} -o {$out_path}
+dita -i $file_name -f $format -o $out_path
