@@ -1,1 +1,1 @@
-dita --version
+java --version
