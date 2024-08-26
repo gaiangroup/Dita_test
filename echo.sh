@@ -1,0 +1,3 @@
+ECHO $PATH
+ECHO $DITA_HOME
+which dita
