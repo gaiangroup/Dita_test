@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $dita_content > $save_path.dita
+mkdir $directory && touch $directory/$save_path.dita
