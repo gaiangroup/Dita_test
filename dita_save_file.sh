@@ -1,3 +1,6 @@
 #!/bin/bash
-echo '$dita_content' > $directory/$save_path.dita
+if [[ $save_path != *.dita ]]; then
+  save_path="$save_path.dita"
+fi
 
+echo "$dita_content" > "$directory/$save_path"
